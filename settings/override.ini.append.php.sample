@@ -1,0 +1,15 @@
+<?php /* #?ini charset="utf-8"?
+
+[full_robot_txt]
+Source=node/view/full.tpl
+MatchFile=full/robot_txt.tpl
+Subdir=templates
+Match[class_identifier]=robot_txt
+
+[pagelayout_robot_txt]
+Source=pagelayout.tpl
+MatchFile=pagelayout/robot_txt.tpl
+Subdir=templates
+Match[class_identifier]=robot_txt
+
+*/ ?>
