@@ -1,6 +1,6 @@
 <?php
 
-class OWRobotTxtMigration extends OWMigration {
+class OWRobotsTxtMigration extends OWMigration {
 
     public function up( ) {
         $migration = new OWMigrationContentClass( );
