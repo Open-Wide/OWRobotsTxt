@@ -1,0 +1,25 @@
+Extension : OWRobotsTxt v0.1beta
+Requires : eZ Publish 4.x.x (not tested on 3.X)
+Author : Open Wide <http://www.openwide.fr>
+
+Installation:
+------------
+- Copy owrobotstxt in extension directory and activate it.
+- Clear cache : php bin/php/ezcache --clear-all
+- Regenerate autoloads : php bin/php/ezpgenerateautoloads.php -e
+- Create the content class robots_txt :
+
+* Name : robots.txt
+* Identifier : robots_txt
+* Object name pattern : robots.txt
+* Attributes :
+1 - Identifier : production
+    Data type : eztext
+2 - Identifier : other
+    Data type : eztext
+
+Note : if you are using owmigration extension, you can create the content class with the file owmigration/owrobotstxtmigration.php.
+
+Usage
+------------
+See README for details

@@ -1,6 +1,0 @@
-- Activez l'extension
-- Créer la classe de contenu :
-    * par le script de migration : php extension/owmigration/bin/migrate.php --migration-class=OWRobotTxtMigration --up
-    * manuellement comme la description ci dessous
-- Ajouter les overrides définis dans override.ini.append.php.sample dans votre override.ini
-- Il ne reste plus qu'à définir su vous êtes en production ou non dans votre owrobotstxt.ini 
