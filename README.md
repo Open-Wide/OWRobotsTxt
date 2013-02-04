@@ -9,8 +9,9 @@ OW RobotsTxt provide a content class and its override to manage robot.txt on pro
  
 Usage
 ------
-1. Create a robots_txt content under the root node of your site. 
+1. Create a robots_txt content under the root node of your site. Set the content of robots.txt on production and no-production environment by using "Production" and "Other" class attributes.
 2. Copy the overrides of override.ini.append.php.sample in your siteaccess overrides.
+2. On your owrobotstxt.ini.append.php file, set if you are on production or not.
 3. Clear cache.
 
 Enjoy !
