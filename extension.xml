@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>OWRobotsTxt</name>
+        <version>v0.1beta</version>
+        <copyright>Copyright (C) 2011 OPEN WIDE</copyright>
+        <license>GNU General Public License v3.0</license>
+        <info_url>https://github.com/Open-Wide/OWRobotsTxt</info_url>
+    </metadata>
+    <dependencies>
+        <uses>
+            <extension name="OWMigration"/>
+        </uses>
+    </dependencies>
+</software>
