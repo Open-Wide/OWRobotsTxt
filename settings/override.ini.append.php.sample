@@ -14,4 +14,16 @@ MatchFile=pagelayout/robots_txt.tpl
 Subdir=templates
 Match[class_identifier]=robots_txt
 
+[full_sitemap_xml]
+Source=node/view/full.tpl
+MatchFile=full/sitemap_xml.tpl
+Subdir=templates
+Match[class_identifier]=sitemap_xml
+
+[pagelayout_sitemap_xml]
+Source=pagelayout.tpl
+MatchFile=pagelayout/sitemap_xml.tpl
+Subdir=templates
+Match[class_identifier]=sitemap_xml
+
 */ ?>
