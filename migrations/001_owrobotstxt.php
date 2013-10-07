@@ -1,6 +1,6 @@
 <?php
 
-class OWRobotsTxtMigration extends OWMigration {
+class OWRobotsTxt_001 {
 
     public function up( ) {
         $migration = new OWMigrationContentClass( );
@@ -10,7 +10,7 @@ class OWRobotsTxtMigration extends OWMigration {
         $migration->name = 'robots.txt';
         $migration->addAttribute( 'production', array( 'data_type_string' => 'eztext' ) );
         $migration->addAttribute( 'other', array( 'data_type_string' => 'eztext' ) );
-        $migration->addToContentClassGroup( 'Setup' );
+        $migration->addToContentClassGroup( 'OWRobotsTxt' );
         $migration->end( );
 
     }

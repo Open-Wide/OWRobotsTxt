@@ -1,15 +1,17 @@
 <?php /* #?ini charset="utf-8"?
 
-[full_robot_txt]
-Source=node/view/full.tpl
-MatchFile=full/robot_txt.tpl
-Subdir=templates
-Match[class_identifier]=robot_txt
+# Override l'extension owrobotstxt
 
-[pagelayout_robot_txt]
-Source=pagelayout.tpl
-MatchFile=pagelayout/robot_txt.tpl
+[full_robots_txt]
+Source=node/view/full.tpl
+MatchFile=full/robots_txt.tpl
 Subdir=templates
-Match[class_identifier]=robot_txt
+Match[class_identifier]=robots_txt
+
+[pagelayout_robots_txt]
+Source=pagelayout.tpl
+MatchFile=pagelayout/robots_txt.tpl
+Subdir=templates
+Match[class_identifier]=robots_txt
 
 */ ?>
